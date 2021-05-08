@@ -1,0 +1,36 @@
+.sidebar__box__title {
+  font-size: 13px;
+  font-weight: 600;
+  color: #697488;
+  margin-top: 12px;
+}
+.sidebar__box__content {
+  width: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+.sidebar__box__content__search {
+  margin-bottom: 17px;
+}
+.sidebar__box__content__wrap {
+  height: 142px;
+  padding: 1px;
+  overflow-y: scroll;
+}
+.sidebar__box__content__group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.sidebar__box__content__group:last-child {
+  margin-bottom: 0;
+}
+.sidebar__box__content__group__label {
+  margin-left: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #525252;
+}
+
+/*# sourceMappingURL=sidebar.css.map */

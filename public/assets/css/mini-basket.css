@@ -1,0 +1,18 @@
+.mini-basket {
+  height: 76.64px;
+  width: 129px;
+  background-color: #147594;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  margin-right: 8px;
+}
+.mini-basket__label {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: 0.16px;
+}
+
+/*# sourceMappingURL=mini-basket.css.map */

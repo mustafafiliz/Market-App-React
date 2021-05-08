@@ -1,0 +1,35 @@
+.card {
+  width: 124px;
+  height: 225px;
+  margin: 22px 10px;
+  position: relative;
+}
+.card__img {
+  width: 124px;
+  height: 124px;
+  border-radius: 12px;
+  border: 2px solid #f3f0fe;
+  display: grid;
+  place-items: center;
+}
+.card__price {
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #1EA4CE;
+  line-height: 20px;
+}
+.card__title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #191919;
+  line-height: 20px;
+}
+.card__button {
+  margin-top: 8px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/*# sourceMappingURL=card.css.map */

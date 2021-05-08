@@ -1,0 +1,19 @@
+.header {
+  height: 76.64px;
+  background-color: #1EA4CE;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 104px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.header .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,46 @@
+@import variables
+
+.basket
+  padding: 27px 22px
+  box-sizing: border-box
+  border: 8px solid $space-blue
+  border-radius: 2px
+  &__item
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 18px 0
+    border-bottom: 2px solid #f4f4f4
+    &__label
+      max-width: 50%
+      &__title
+        font-size: 14px
+        font-weight: 400
+        color: #191919
+      &__price
+        font-size: 14px
+        font-weight: 600
+        color: $space-blue
+    &__quantity
+      font-size: 14px
+      font-weight: 600
+      color: $space-blue    
+      &__number
+        display: inline-flex
+        align-items: center
+        justify-content: center
+        background-color: $space-blue
+        color: $pure-white
+        width: 30px
+        height: 30px
+        margin: 0 5px
+      &__increase
+        font-size: 18px
+        cursor: pointer
+    
+      &__decrease
+        font-size: 18px
+        cursor: pointer
+    
+        
+      

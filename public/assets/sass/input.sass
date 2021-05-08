@@ -1,0 +1,100 @@
+@import variables
+
+.input
+  position: relative
+  width: 10px
+  height: 10px
+  padding: 5px
+  &:disabled
+    opacity: 0.5
+    cursor: not-allowed
+    &::after
+      opacity: 0.5
+    &::before
+      opacity: 0.5
+  &::before
+    background: white
+    content: " "
+    display: block
+    position: absolute
+    top: -5px
+    left: -5px
+    width: 20px
+    height: 20px
+    border-radius: 50%
+    border: 1px solid #cecece
+    box-sizing: border-box
+    z-index: 1
+  &:checked
+    &::after
+      z-index: 2
+      background: white
+      content: " "
+      display: block
+      position: absolute
+      top: -5px
+      left: -5px
+      width: 20px
+      height: 20px
+      border-radius: 50%
+      border: 2px solid $space-blue
+      box-sizing: border-box
+      background-position: center
+      background-size: 12px
+      background-repeat: no-repeat
+      background-image: url(/assets/i/Vector.svg)
+
+  
+.input--search
+  width: 100%
+  padding: 12px 16px
+  box-sizing: border-box
+  outline: none
+  border: 2px solid #e0e0e0
+  color: #a8a8a8
+  &::placeholder
+    color: #a8a8a8
+
+
+.input--square
+  position: relative
+  width: 10px
+  height: 10px
+  padding: 5px
+  &:disabled
+    opacity: 0.5
+    cursor: not-allowed
+    &::after
+      opacity: 0.5
+    &::before
+      opacity: 0.5
+  &::before
+    background: white
+    content: " "
+    display: block
+    position: absolute
+    top: -5px
+    left: -5px
+    width: 20px
+    height: 20px
+    border: 1px solid #cecece
+    box-sizing: border-box
+    z-index: 1
+  &:checked
+    &::after
+      z-index: 2
+      background: $space-blue
+      content: " "
+      display: block
+      position: absolute
+      top: -5px
+      left: -5px
+      width: 20px
+      height: 20px
+      border: 2px solid $space-blue
+      box-sizing: border-box
+      background-position: center
+      background-size: 12px
+      background-repeat: no-repeat
+      background-image: url(/assets/i/Vector-White.svg)
+    
